@@ -13,6 +13,7 @@ h3{
 }
 .photo-album{
     display: flex;
+    flex-direction: row;
 }
 .price span{
     height: 100px;
@@ -21,18 +22,20 @@ h3{
 }
 .variant {
     display: flex;
+    flex-direction: row;
 }
 .discription{
     height: 400px;
     align-items: center;
 }
-button{
+.button{
     background-color: red;
     color: white;
-    align-items: center;
     border: none;
     border-radius: 5px;
     height: 50px;
     width: 250px;
     margin-left: 30px;
+    line-height: 50px;
+    justify-content: center;
 }
